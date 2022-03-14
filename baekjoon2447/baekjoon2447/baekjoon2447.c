@@ -14,7 +14,7 @@ void starrecursive(int i, int j, int n) {
 int main() {
 	int n;
 	scanf("%d", &n);
-	int i, j;
+	int i, j;//i는 열,j는 행
 	for (i = 0; i < n; i++) {
 		for (j = 0; j < n; j++)
 			starrecursive(i, j, n);
